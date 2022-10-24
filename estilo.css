@@ -1,0 +1,135 @@
+body{
+    background-image: url("images\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center ;
+
+}
+
+
+.container{
+    border: 3px solid rgb(241, 235, 235);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column{
+    width: 47.5%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid purple;
+    background-color: rgba(24, 154, 163, 0.24);
+    box-sizing: border-box;
+}
+
+
+
+
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: rgb(8, 14, 8);
+    text-align: center;
+}
+
+p{
+    color: rgb(10, 8, 8)
+}
+    
+
+.italic-text {
+    font-style: italic;
+}
+
+a:link {
+    background-color: rgb(64, 218, 218)4, 218, 218);
+}
+
+a:visited {
+    background-color: rgb(166, 219, 176);
+    color: rgb(252, 40, 51);    
+}
+
+a:hover{
+    background-color: rgb(50, 32, 116);
+    color: rgb(100, 50, 216);
+}
+
+a{
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+span{
+    background-color: yellow;
+    color: black;
+    display: block;
+}
+
+h3{
+    background-color: rgb(162, 220, 235);
+    color:black;
+    text-align: center;
+    
+}
+
+h4{
+    color: black    
+
+}
+
+.container-one{
+    background-color: blueviolet;
+    height: 100px;
+    width: 300px;
+
+}
+.container-two{
+    
+    height: 50px;
+
+}
+.box01{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(194, 65, 65)2);
+    margir; 30px
+    padding: 50px;
+    border: 10px solid rgb(162, 220, 235);
+    border-radius: 20px;
+    
+}
+
+.fixed{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+.absolute{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.relative {
+    position: relative;
+    left: 80px;
+}
+
+h4{
+margin: 50px;
+    color: rgb(7, 6, 6);
+}
