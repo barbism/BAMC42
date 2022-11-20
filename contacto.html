@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BuscaBeer</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<div class="fixed"></div>
+<a href="index.html">Inicio</a>
+<br>
+<a href="contacto.html">Inicia Sesion o Suscribete</a>
+<br>
+<a href="agregarlibro.html">Agregar Bebida</a>
+<br>
+<a href="generol">Categorias</a>
+<br>
+<a href="masleidos">Mas Populares</a>
+<br>
+<a href="preguntasfrecuentes">Preguntas frecuentes</a>
+
+
+
+ <h1>FORMULARIO DE INICIO SESION O SUSCRIPCION</h1>
+ <form action="https://formspree.io/f/xoqbdwaq" method="post">
+     <div>
+    <label for="username">Nombre Completo</label>
+    <input type="text" name="username" id="username" placeholder="Escribe tu Nombre"> 
+ </div>
+ 
+ <div>
+     <label for="username">Correo Electronico:</label>
+     <input type="email" name="email" id="email" placeholder="user@email.com"> 
+  </div>
+ 
+ 
+  <div>
+     <label for="postal">Codigo Postal</label>
+     <input type="number" id="postal" name="postal" minlength="3">
+  
+  </div>
+ 
+  <div>
+     <label for="nacimiento">Fecha de Nacimiento</label>
+     <input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha de nacimiento"> 
+  </div>
+ 
+  <div>
+     <label for="ocupacion">Ocupacion</label>
+     <select name="ocupacion" id="ocupacion">
+         <optgroup label="estudia">
+             <option value="abogado"> Abogacia</option>
+             <option value="ingeniero"> Ingenieria</option>
+             <option value="medico"> Medicina</option> 
+             <option value="medico"> Programación</option> 
+             <option value="otro"> Otro</option> 
+             
+ 
+          </optgroup>
+          <optgroup label="trabaja">
+             <option value="abogado"> Abogado</option>
+             <option value="ingeniero"> Ingeniero</option>
+             <option value="medico"> Medico</option> 
+             <option value="medico"> Programador</option> 
+             <option value="otro"> Otro</option> 
+             
+          </optgroup>
+ 
+     </select> 
+ 
+     
+  </div>
+ 
+  <div>
+     <label for="pais"> Elegi un pais </label>
+     <select name="pais" id="pais">
+     <option value="ar"> Argentina </option>
+     <option value="uy"> Uruguay </option>
+     <option value="br"> Brasil </option>
+     <option value="br"> Paraguay </option>
+     <option value="otro"> Otro</option> 
+ </select>
+ </div>
+ 
+ <div> <label for="pass">Contraseña </label> 
+     <input type="password" id="pass" name="pass" pattern=".{8,}">  </div>
+ 
+     <div> <label for="pass_confirm"> Confirmar Contraseña </label> 
+         <input type="password" id="pass_confirm" name="pass_confirm" pattern=".{8,}">  </div>
+ <br>
+ 
+ <div>
+     <label for="comentarios"> Deja tu Comentario</label> <br>
+     <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+ </div>
+ 
+ <div>
+     <p> ¿ Queres recibir notificaciónes? </p>
+     <input id="sabes-html-opt-01" type="radio" value="S" name="sabes-html">
+     <label for="sabes-html-opt-01">SI</label>
+     <input id="sabes-html-opt-02" type="radio" value="N" name="sabes-html">
+     <label for="sabes-html-opt-02">NO </label>
+ </div>
+ 
+ <p>Que tipo de notificaciones </p>
+ <input type="checkbox" id="deportes" name="deportes"> Tragos
+ <input type="checkbox" id="cocina" name="deportes"> Cervezas
+ <input type="checkbox" id="juegos" name="deportes"> Recomendaciones
+ 
+ <br>
+ <br>
+ <br>
+ 
+  <button type="submit"> Enviar </button>
+ 
+ </form>
